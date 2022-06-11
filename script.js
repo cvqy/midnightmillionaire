@@ -1,9 +1,3 @@
-"use strict";
-
-
-
-
-
 
 // Add list of names here
 const namesList = [
@@ -17,6 +11,7 @@ let intervalHandle = null;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const headerOne = document.getElementById('headerNames');
+
 
 // Start or stop the name shuffle on button click
 startButton.addEventListener('click', function() {
