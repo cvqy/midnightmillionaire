@@ -1,4 +1,6 @@
+window.onload= function {
 
+//entire js file
 // Add list of names here
 const namesList = [
 'Student','Alomgier Ahmed','Anthony Nguyen','Dante Diaz','Hunter Farrar','Jael Castillo','Kiara Roberson','Martin Louth','Mimi Ho','Myles Reed','Armando Herrada Esquivel','Danielle Nickerson','Elvyn Escudero','Eric Collazo','Judith Garcia','sarai solorzano','Tamara Reed','Vantasia Lewis','Ahmad Hamad','Andrea Paredes','Caleb Mariscal','Daisy Rodriguez','Danielle Nickerson','Diego Hernandez','Jose Marquez','Shekinah Okechukwu','Sonam Lama','Zedrick Burns'
@@ -26,3 +28,4 @@ stopButton.addEventListener('click', function() {
 	startButton.style.display = "block";
 	clearInterval(intervalHandle);
 });
+}
